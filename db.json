@@ -1,24 +1,408 @@
 {
-  "restaurants": [
-    {
-      "id": 1,
-      "name": "Vedge",
-      "address": "1221 Locust St, Philadelphia, PA 19107",
-      "imgUrl": "https://s3-media0.fl.yelpcdn.com/bphoto/TMFHugi3h9V7x-fDBFTpgA/o.jpg"
-    }
-  ],
-  "reviews": [
-    {
-      "id": 1,
-      "restaurantId": 1,
-      "stars": 5,
-      "text": "Impossibly good vegan food"
-    },
-    {
-      "id": 2,
-      "restaurantId": 1,
-      "stars": 2,
-      "text": "I didn't know they meant vedge literally"
-    }
-  ]
+    "restaurants": [
+        {
+            "id": 1,
+            "name": "Vedge",
+            "address": "1221 Locust St, Philadelphia, PA 19107",
+            "imgUrl": "https://s3-media0.fl.yelpcdn.com/bphoto/TMFHugi3h9V7x-fDBFTpgA/o.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Dmitri's",
+            "address": "944 N 2nd St, Philadelphia, PA 19123",
+            "imgUrl": "https://billypenn.com/wp-content/uploads/2020/01/dmitris-hummus-greek-crop-1200x630.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Taco Riendo",
+            "address": "1301 N 5th St, Philadelphia, PA 19122",
+            "imgUrl": "https://s3-media0.fl.yelpcdn.com/bphoto/EXmGjdeZsP4Mx8MfdkwdBw/348s.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Tacconelli's Pizza",
+            "address": "2604 E Somerset St, Philadelphia, PA 19134",
+            "imgUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fonebite.app%2Frestaurant%2Ftacconellis-pizzeria-philadelphia-pa-9b03118d%2Freview%2F558caa69-4666-4b88-8582-8eab62717bb0&psig=AOvVaw1E4gzG3YCxkONcSLgWvNaz&ust=1602888690536000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMio3fLXt-wCFQAAAAAdAAAAABAD"
+        },
+        {
+            "id": 5,
+            "name": "Knead Bagels",
+            "address": "725 Walnut St, Philadelphia, PA 19106",
+            "imgUrl": "https://www.uwishunu.com/wp-content/uploads/2016/01/bagels-philadelphia-og-1500vp.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Vic Sushi Bar",
+            "address": "2035 Sansom St, Philadelphia, PA 19103",
+            "imgUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fvic-sushi-bar-philadelphia%3Fstart%3D40&psig=AOvVaw2AydFJ33OTidE9AyYihVej&ust=1602888958845000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCa4-zYt-wCFQAAAAAdAAAAABAD"
+        },
+        {
+            "id": 7,
+            "name": "Mama's Vegetarian",
+            "address": "18 S 20th St, Philadelphia, PA 19103",
+            "imgUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FRestaurant_Review-g60795-d2256275-Reviews-Mama_s_Vegetarian-Philadelphia_Pennsylvania.html&psig=AOvVaw00efhdZGQ0OtzZDN7NDEwD&ust=1602888538524000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIiB8qPXt-wCFQAAAAAdAAAAABAX"
+        },
+        {
+            "id": 8,
+            "name": "Restaurant Taqueria El Jarocho",
+            "address": "1138 S 13th St, Philadelphia, PA 19147",
+            "imgUrl": "https://s3-media0.fl.yelpcdn.com/bphoto/9Vn-OECgQEFMBExeart-QA/o.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Barbuzzo",
+            "address": "110 S 13th St, Philadelphia, PA 19107",
+            "imgUrl": "https://s3-media0.fl.yelpcdn.com/bphoto/88mJSIDPi3JUsCK2FsVJqg/o.jpg"
+        },        
+        {
+            "id": 10,
+            "name": "Sagami Japanese Restaurant",
+            "address": "37 Crescent Blvd, Collingswood, NJ 08108",
+            "imgUrl": "https://vrconcierge.com/wp-content/uploads/2018/11/16944_sagami-japanese-restaurant-collingswood-food-5.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Castellino's Italian Market",
+            "address": "1255 E Palmer St, Philadelphia, PA 19125",
+            "imgUrl": "https://s3-media0.fl.yelpcdn.com/bphoto/YHnksUCSXlOBvMBlztA-JQ/o.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Ekta Indian Cuisine",
+            "address": "250 E Girard Ave, Philadelphia, PA 19125",
+            "imgUrl": "https://s3-media0.fl.yelpcdn.com/bphoto/cKJo-KD9WWnJEfKt3SVRGw/o.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Khyber Pass Pub",
+            "address": "56 S 2nd St, Philadelphia, PA 19106",
+            "imgUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fkhyber-pass-pub-philadelphia%3Fstart%3D160&psig=AOvVaw2K9LhcqICdedRQzKKA76DB&ust=1602889724490000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNj1q9vbt-wCFQAAAAAdAAAAABAJ"
+        },
+        {
+            "id": 14,
+            "name": "Zeppoli",
+            "address": "618 W Collings Ave, Collingswood, NJ 08107",
+            "imgUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fzeppoli%2F&psig=AOvVaw06IUYq1v86kuDoz95eSOuD&ust=1602889384185000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNC2n7vat-wCFQAAAAAdAAAAABAL"
+        },
+        {
+            "id": 15,
+            "name": "Govinda's Vegetarian Cuisine",
+            "address": "1408 South St, Philadelphia, PA 19146",
+            "imgUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ubereats.com%2Fphiladelphia%2Ffood-delivery%2Fgovindas-vegetarian%2FTulbQPe1QnOmECgsNrPItA&psig=AOvVaw05UDCzD57llXuRY1ufQwqI&ust=1602889844082000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJj9vJPct-wCFQAAAAAdAAAAABAK"
+        }
+],
+    "reviews": [
+        {
+            "id": 1,
+            "restaurantId": 1,
+            "stars": 5,
+            "text": "Impossibly good vegan food."
+        },
+        {
+            "id": 2,
+            "restaurantId": 1,
+            "stars": 2,
+            "text": "I didn't know they meant vedge literally."
+        },
+        {
+            "id": 3,
+            "restaurantId": 1,
+            "stars": 3,
+            "text": "The ambiance, food and service were delicious, but it was not a complete 'wow' for me."
+        },
+        {
+            "id": 4,
+            "restaurantId": 1,
+            "stars": 2,
+            "text": "Every single aspect of this meal was perfect!"
+        },
+        {
+            "id": 5,
+            "restaurantId": 2,
+            "stars": 4,
+            "text": "They know how to cook their seafood here."
+        },
+        {
+            "id": 6,
+            "restaurantId": 2,
+            "stars": 2,
+            "text": "Love the octopus, hate the small tables, love the spinach pie, hate the wait."
+        },
+        {
+            "id": 7,
+            "restaurantId": 2,
+            "stars": 3,
+            "text": "The space is very small and getting a table takes a bit of time."
+        },
+        {
+            "id": 8,
+            "restaurantId": 2,
+            "stars": 5,
+            "text": "It's BYOB so bring your favorite booze to pair with excellent Greek food."
+        },
+        {
+            "id": 9,
+            "restaurantId": 3,
+            "stars": 5,
+            "text": "This authentic Mexican restaurant and taqueria is everything you could ask for in a neighborhood taco joint."
+        },
+        {
+            "id": 10,
+            "restaurantId": 3,
+            "stars": 4,
+            "text": "Nice mom and pop Mexican eatery."
+        },
+        {
+            "id": 11,
+            "restaurantId": 3,
+            "stars": 3,
+            "text": "They unfortunately don't accept card for payment, but the food makes up for that."
+        },
+        {
+            "id": 12,
+            "restaurantId": 3,
+            "stars": 2,
+            "text": "Cash only but with the steep prices should take card."
+        },
+        {
+            "id": 13,
+            "restaurantId": 4,
+            "stars": 3,
+            "text": "You have to reserve your dough in advance!"
+        },
+        {
+            "id": 14,
+            "restaurantId": 4,
+            "stars": 5,
+            "text": "This is & has been the best pizza in Philly for decades!"
+        },
+        {
+            "id": 15,
+            "restaurantId": 4,
+            "stars": 5,
+            "text": "Tacconelli's is one of the most classic Philadelphia pizza joints. Their pizza is plain and simple, in the best way possible."
+        },
+        {
+            "id": 16,
+            "restaurantId": 4,
+            "stars": 4,
+            "text": "The sauce is on the sweeter side (not my taste but still very good) and the crust is thinner than your average pizza place and very crispy."
+        },
+        {
+            "id": 17,
+            "restaurantId": 5,
+            "stars": 5,
+            "text": "Absolutely delicious bagels! You won't be able to get their unique flavors (bagels and cream cheese!) elsewhere."
+        },
+        {
+            "id": 18,
+            "restaurantId": 5,
+            "stars": 4,
+            "text": "The bagels are DELICIOUS here, although slightly pricey for a bagel."
+        },
+        {
+            "id": 19,
+            "restaurantId": 5,
+            "stars": 2,
+            "text": "A word to the wise though, for those that like a softer kind of bagel this might not be up your alley, but I sill recommend giving it a try. The bagels here are on the harder side of the scale."
+        },
+        {
+            "id": 20,
+            "restaurantId": 5,
+            "stars": 5,
+            "text": "The employees are always super friendly, despite the insane lines I see on weekends. They keep the place cheerful and stress free."
+        },
+        {
+            "id": 21,
+            "restaurantId": 6,
+            "stars": 3,
+            "text": "Their indoor dining is SUPER TINY."
+        },
+        {
+            "id": 22,
+            "restaurantId": 6,
+            "stars": 5,
+            "text": "Vic's is my favorite sushi place in Philly! "
+        },
+        {
+            "id": 23,
+            "restaurantId": 6,
+            "stars": 5,
+            "text": "Hole-in-the-wall, no frills, BUT delicious sushi for reasonable prices."
+        },
+        {
+            "id": 24,
+            "restaurantId": 6,
+            "stars": 3,
+            "text": "Good luck getting a seat! The place is tiny with just one table and some counter-seating."
+        },
+        {
+            "id": 25,
+            "restaurantId": 7,
+            "stars": 5,
+            "text": "This place is easily one of the best falafel spots in the city!"
+        },
+        {
+            "id": 26,
+            "restaurantId": 7,
+            "stars": 3,
+            "text": "Tables turnover quickly enough, usually seated in 5 mins. It's small so it can get crowded."
+        },
+        {
+            "id": 27,
+            "restaurantId": 7,
+            "stars": 3,
+            "text": "I only wish they accept credit.  Crazy long lines during lunch."
+        },
+        {
+            "id": 28,
+            "restaurantId": 7,
+            "stars": 5,
+            "text": "Best falafel in Philadelphia."
+        },
+        {
+            "id": 29,
+            "restaurantId": 8,
+            "stars": 5,
+            "text": "This little place, hidden in a neighborhood, serves up some really great authentic Mexican food."
+        },
+        {
+            "id": 30,
+            "restaurantId": 8,
+            "stars": 3,
+            "text": "Overall I enjoyed eating here mostly cause it's hard not to love a burrito, ya know?"
+        },
+        {
+            "id": 31,
+            "restaurantId": 8,
+            "stars": 3,
+            "text": ""
+        },
+        {
+            "id": 32,
+            "restaurantId": 8,
+            "stars": 5,
+            "text": "If you live in South Philly or are in South Philly and aren't ordering from El Jarocho you're missing out."
+        },
+        {
+            "id": 33,
+            "restaurantId": 9,
+            "stars": 5,
+            "text": ""
+        },
+        {
+            "id": 34,
+            "restaurantId": 9,
+            "stars": 3,
+            "text": ""
+        },
+        {
+            "id": 35,
+            "restaurantId": 9,
+            "stars": 3,
+            "text": ""
+        },
+        {
+            "id": 36,
+            "restaurantId": 9,
+            "stars": 5,
+            "text": ""
+        },
+        {
+            "id": 37,
+            "restaurantId": 10,
+            "stars": 5,
+            "text": ""
+        },
+        {
+            "id": 37,
+            "restaurantId": 10,
+            "stars": 3,
+            "text": ""
+        },
+        {
+            "id": 37,
+            "restaurantId": 10,
+            "stars": 3,
+            "text": ""
+        },
+        {
+            "id": 36,
+            "restaurantId": 10,
+            "stars": 5,
+            "text": ""
+        },
+        {
+            "id": 33,
+            "restaurantId": 11,
+            "stars": 5,
+            "text": ""
+        },
+        {
+            "id": 34,
+            "restaurantId": 11,
+            "stars": 3,
+            "text": ""
+        },
+        {
+            "id": 35,
+            "restaurantId": 11,
+            "stars": 3,
+            "text": ""
+        },
+        {
+            "id": 36,
+            "restaurantId": 11,
+            "stars": 5,
+            "text": ""
+        },
+        {
+            "id": 33,
+            "restaurantId": 12,
+            "stars": 5,
+            "text": ""
+        },
+        {
+            "id": 34,
+            "restaurantId": 12,
+            "stars": 3,
+            "text": ""
+        },
+        {
+            "id": 35,
+            "restaurantId": 12,
+            "stars": 3,
+            "text": ""
+        },
+        {
+            "id": 36,
+            "restaurantId": 12,
+            "stars": 5,
+            "text": ""
+        },
+        {
+            "id": 33,
+            "restaurantId": 13,
+            "stars": 5,
+            "text": ""
+        },
+        {
+            "id": 34,
+            "restaurantId": 13,
+            "stars": 3,
+            "text": ""
+        },
+        {
+            "id": 35,
+            "restaurantId": 13,
+            "stars": 3,
+            "text": ""
+        },
+        {
+            "id": 36,
+            "restaurantId": 13,
+            "stars": 5,
+            "text": ""
+        }
+    ]
 }
