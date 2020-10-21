@@ -70,30 +70,31 @@ const getReviews = async () => {
     return reviews;
 }
 
-  const getData = async () => {
-      
-    const restaurantData = await getRestaurants();
-    const reviewData = await getReviews();
+const getData = async () => {
+
+    const restaurants = await getRestaurants();
+    const reviews = await getReviews();
 
     const result = document.querySelector("#result");
 
-    restaurantData.forEach((restaurants) => {
 
-        reviewData.forEach((reviews) => {
-            if(reviews.restaurantId === restaurants.id) {
-                result.innerHTML += 
-                `
-                <div>${restaurants.name}</div>
-                <div>${reviews.text}</div>
-                `;
-            };
+    reviews.forEach((review) => {
+        const restaurant = restaurants.find((restaurant) => {
+            return restaurant.id === review.restaurantId;
         });
 
-
+            result.innerHTML += 
+                `<div id="post">
+                <div id="name">${restaurant.name}</div>
+                <div id="stars">Stars: ${review.stars}</div>
+                <div id="address">${restaurant.address}</div>
+                <div id="image" style="background-image: url(${restaurant.imgUrl})"></div>
+                <div id="reviews">${review.text}</div>
+                </div>
+                `;
     });
 };
 getData();
-
 
 
 
