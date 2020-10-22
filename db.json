@@ -53,7 +53,7 @@
             "name": "Barbuzzo",
             "address": "110 S 13th St, Philadelphia, PA 19107",
             "imgUrl": "https://s3-media0.fl.yelpcdn.com/bphoto/88mJSIDPi3JUsCK2FsVJqg/o.jpg"
-        },        
+        },
         {
             "id": 10,
             "name": "Sagami Japanese Restaurant",
@@ -275,8 +275,8 @@
         {
             "id": 31,
             "restaurantId": 8,
-            "stars": 3,
-            "text": ""
+            "stars": 2,
+            "text": "It wasn't the best  burrito I've ever had, but it definitely hit the spot."
         },
         {
             "id": 32,
@@ -288,169 +288,169 @@
             "id": 33,
             "restaurantId": 9,
             "stars": 5,
-            "text": ""
+            "text": "I love Barbuzzo. Always have. The food is incredible, drinks are good and the Budino is legendary."
         },
         {
             "id": 34,
             "restaurantId": 9,
-            "stars": 3,
-            "text": ""
+            "stars": 5,
+            "text": "I'll be as direct as possible. The menu is out of this world but no matter what, GET THE BUDINO!"
         },
         {
             "id": 35,
             "restaurantId": 9,
             "stars": 3,
-            "text": ""
+            "text": "Barbuzzo was good, but I was a little underwhelmed considering the rave reviews."
         },
         {
             "id": 36,
             "restaurantId": 9,
-            "stars": 5,
-            "text": ""
+            "stars": 4,
+            "text": "Somehow every time I eat here the food ends up being too salty for my taste, especially the pizza. That being said, the pasta tastes very fresh and the house-made ricotta is a staple."
         },
         {
             "id": 37,
             "restaurantId": 10,
             "stars": 5,
-            "text": ""
+            "text": "If you want authentic Japanese cuisine (including their hot dishes) there is simply no other place to consider, full stop."
+        },
+        {
+            "id": 37,
+            "restaurantId": 10,
+            "stars": 5,
+            "text": "I don't want to tell you about Sagami, because I want to keep it all to myself."
         },
         {
             "id": 37,
             "restaurantId": 10,
             "stars": 3,
-            "text": ""
-        },
-        {
-            "id": 37,
-            "restaurantId": 10,
-            "stars": 3,
-            "text": ""
+            "text": "If you're looking for unique sushi rolls (e.g. any fried sushi rolls, extravagant plating, or different flavor combinations you've never heard of, etc.), this is NOT the place for you."
         },
         {
             "id": 36,
             "restaurantId": 10,
-            "stars": 5,
-            "text": ""
+            "stars": 4,
+            "text": "The menu is a little limited because they don't have sashimi or speciality sushi rolls, but it is still really good."
         },
         {
             "id": 33,
             "restaurantId": 11,
             "stars": 5,
-            "text": ""
+            "text": "Best Italian hoagie I've ever had; hands down.  Owned by a husband and wife couple who share a passion for quality ingredients and service."
         },
         {
             "id": 34,
             "restaurantId": 11,
-            "stars": 3,
-            "text": ""
+            "stars": 5,
+            "text": "Castellino's has become my go-to spot for everything. It's the most convenient, yet most delicious and high quality little corner shop in the area."
         },
         {
             "id": 35,
             "restaurantId": 11,
             "stars": 3,
-            "text": ""
+            "text": "I think the hoagie was made with care and attention, but was disappointed in the expediency here."
         },
         {
             "id": 36,
             "restaurantId": 11,
             "stars": 5,
-            "text": ""
+            "text": "They pack a lot of quality into a tiny corner store."
         },
         {
             "id": 33,
             "restaurantId": 12,
             "stars": 5,
-            "text": ""
+            "text": "Very unassuming, but this place is one of the top Indian food places in Philly."
         },
         {
             "id": 34,
             "restaurantId": 12,
             "stars": 3,
-            "text": ""
+            "text": "Overall, it's a good spot, just needs to be more consistent with its staples."
         },
         {
             "id": 35,
             "restaurantId": 12,
-            "stars": 3,
-            "text": ""
+            "stars": 4,
+            "text": "When it comes to authentic Indian food, look no further than Ekta."
         },
         {
             "id": 36,
             "restaurantId": 12,
-            "stars": 5,
-            "text": ""
+            "stars": 2,
+            "text": "Eating in is different, however I've given up on the exorbitant prices for takeout."
         },
         {
             "id": 33,
             "restaurantId": 13,
-            "stars": 5,
-            "text": ""
+            "stars": 4,
+            "text": "Still my go to place for authentic New Orleans po-boys."
         },
         {
             "id": 34,
             "restaurantId": 13,
-            "stars": 3,
-            "text": ""
+            "stars": 4,
+            "text": "A small neighborhood bar that actually serves authentic Cajun food!"
         },
         {
             "id": 35,
             "restaurantId": 13,
             "stars": 3,
-            "text": ""
+            "text": "I LOVE that's there's vegan options."
         },
         {
             "id": 36,
             "restaurantId": 13,
             "stars": 5,
-            "text": ""
+            "text": "Best creole food and drinks outside of NOLA."
         },
         {
             "id": 37,
             "restaurantId": 14,
             "stars": 5,
-            "text": ""
+            "text": "It's always a treat to get a table at Zeppoli--one of my favorite Italian restaurants."
         },
         {
             "id": 38,
             "restaurantId": 14,
             "stars": 3,
-            "text": ""
+            "text": "Gets crowded. Go Monday or mid-week if you can. Reservations a must."
         },
         {
             "id": 39,
             "restaurantId": 14,
-            "stars": 3,
-            "text": ""
+            "stars": 4,
+            "text": "Some hits, some misses, but overall a 3.5ish if ya ask me."
         },
         {
             "id": 40,
             "restaurantId": 14,
             "stars": 5,
-            "text": ""
+            "text": "One of the BEST restaurants in Philadelphia Delaware Valley."
         },
         {
             "id": 41,
             "restaurantId": 15,
             "stars": 5,
-            "text": ""
+            "text": " I was not about to come to Philly and not have a cheesesteak and since I'm vegetarian this was the perfect spot!"
         },
         {
             "id": 42,
             "restaurantId": 15,
             "stars": 3,
-            "text": ""
+            "text": "This is a hole in the wall off of Broad - the missing star is just due to the lack of ambiance and charm. It's sort of grungy in here (although it didn't feel dirty)."
         },
         {
             "id": 43,
             "restaurantId": 15,
-            "stars": 3,
-            "text": ""
+            "stars": 5,
+            "text": "When in Philly, eat a cheesesteak, they say. Well what if you're a vegan or vegetarian. Then go to Govinda's!"
         },
         {
             "id": 44,
             "restaurantId": 15,
-            "stars": 5,
-            "text": ""
+            "stars": 2,
+            "text": "Worth the wait but the service is extremely slow and the food takes FOREVERRR."
         }
     ]
 }
