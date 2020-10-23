@@ -77,24 +77,53 @@ const getData = async () => {
 
     const result = document.querySelector("#result");
 
+        restaurants.map((restaurant) => {
 
-    reviews.forEach((review) => {
-        const restaurant = restaurants.find((restaurant) => {
-            return restaurant.id === review.restaurantId;
-        });
+            const reviewData = reviews.filter((review) => {
+                return restaurant.id === review.restaurantId;
+            });
+            const ratingData = reviewData.map((review) => {
+                return review.stars;
+            });
+
+            const averageRating = ratingData.reduce((a, b) => (a + b), 0) / ratingData.length;
+
+            return {
+                ...restaurant,
+                averageRating,
+            };
+
+        }).sort((a, b) => b.averageRating - a.averageRating).map((restaurant) => {
+
+            const stars = reviews.filter((review) => {
+                return restaurant.id === review.restaurantId;
+            });
 
             result.innerHTML += 
+            `<div id="post">
+            <div id="name">${restaurant.averageRating}</div>
+            <div id="name">${restaurant.name}</div>
+            <div id="address">${restaurant.address}</div>
+            <div id="image" style="background-image: url(${restaurant.imgUrl})"></div>
+            </div>`
+
+            stars.map((review) => {
+                result.innerHTML += 
                 `<div id="post">
-                <div id="name">${restaurant.name}</div>
                 <div id="stars">Stars: ${review.stars}</div>
-                <div id="address">${restaurant.address}</div>
-                <div id="image" style="background-image: url(${restaurant.imgUrl})"></div>
                 <div id="reviews">${review.text}</div>
-                </div>
-                `;
-    });
+                </div>`
+            });
+        });
 };
 getData();
+
+
+
+
+
+
+
 
 
 
