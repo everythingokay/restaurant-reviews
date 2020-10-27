@@ -1,4 +1,17 @@
-#post {
+#wrapper {
+    left: 30%;
+    display: block;
+    position: absolute;
+}
+
+header {
+    width: 600px;
+    padding: 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: 46px;
+}
+
+.resultBox {
     border: 1px solid #000;
     width: 500px;
     margin: 30px;
@@ -12,10 +25,30 @@
     margin: 5px;
 }
 
-#reviews, #address, #stars {
+#address {
     font-size: 16px;
     margin: 5px;
     margin-top: 10px;
+}
+
+#reviews {
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#star {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#text {
+    font-size: 16px;
+    margin: 5px;
+    margin-top: 10px;
+    font-style: italic;
 }
 
 #image {
@@ -25,4 +58,46 @@
     background-size: contain;
     margin: 5px;
     margin-top: 10px;
+}
+
+#reviewButton {
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#arrow {
+    font-size: 20px;
+}
+
+#starsForm, #starNumber {
+    margin: 15px;
+    margin-top: 10px;
+}
+
+textarea {
+    margin: 15px;
+    margin-top: 10px;
+    padding: 5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#submitForm {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
 }
