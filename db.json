@@ -453,49 +453,10 @@
       "text": "Worth the wait but the service is extremely slow and the food takes FOREVERRR."
     },
     {
+      "restaurantId": 11,
       "stars": 5,
-      "text": "the best",
+      "text": "hello",
       "id": 45
-    },
-    {
-      "stars": 4,
-      "text": "test",
-      "id": 46
-    },
-    {
-      "stars": 4,
-      "text": "test",
-      "id": 47
-    },
-    {
-      "stars": 5,
-      "text": "test",
-      "id": 48
-    },
-    {
-      "stars": null,
-      "text": "",
-      "id": 49
-    },
-    {
-      "stars": 3,
-      "text": "test",
-      "id": 50
-    },
-    {
-      "stars": 3,
-      "text": "test",
-      "id": 51
-    },
-    {
-      "stars": 5,
-      "text": "TEST",
-      "id": 52
-    },
-    {
-      "stars": 4,
-      "text": "test",
-      "id": 53
     }
   ]
 }
