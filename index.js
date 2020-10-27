@@ -70,13 +70,13 @@ const getReviews = async () => {
     return reviews;
 }
 
-const createReview = async (restaurantId, stars, text, id) => {
+const createReview = async (id, restaurantId, stars, text) => {
 
     const newReview = {
+        id,
         restaurantId,
         stars,
         text,
-        id,
     };
 
     await fetch("http://localhost:3000/reviews", {
@@ -90,12 +90,14 @@ const createReview = async (restaurantId, stars, text, id) => {
     getData();
 };
 
+
 const getData = async () => {
 
     const restaurants = await getRestaurants();
     const reviews = await getReviews();
 
     const result = document.querySelector("#result");
+    result.innerHTML = "";
 
         const restaurantData = restaurants.map((restaurant) => {
 
@@ -177,8 +179,7 @@ const getData = async () => {
                 event.preventDefault();
                 const reviewText = document.getElementsByClassName("textForm")[0].value;
                 const reviewStars = document.getElementsByClassName("starNumber")[0].value;
-                createReview(restaurants.id, parseInt(reviewStars), reviewText);
-                getData();
+                createReview(restaurants.id, reviews.restaurantId, parseInt(reviewStars), reviewText);
             };
 
             submitForm.addEventListener("click", newReview);
