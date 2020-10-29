@@ -36,11 +36,9 @@ const getData = async () => {
 
         const restaurantData = restaurants.map((restaurant) => {
 
-            const reviewData = reviews.filter((review) => {
-                return restaurant.id === review.restaurantId;
+            const reviewData = reviews.filter((review) => { return restaurant.id === review.restaurantId;
             });
-            const ratingData = reviewData.map((review) => {
-                return review.stars;
+            const ratingData = reviewData.map((review) => { return review.stars;
             });
 
             const averageRating = ratingData.reduce((a, b) => (a + b), 0) / ratingData.length;
@@ -113,7 +111,8 @@ const getData = async () => {
                 event.preventDefault();
                 const reviewText = document.getElementsByClassName("textForm")[0].value;
                 const reviewStars = document.getElementsByClassName("starNumber")[0].value;
-                createReview(parseInt(restaurant.id), parseInt(reviewStars), reviewText);
+                createReview(restaurant.id, parseInt(reviewStars), reviewText);
+                getData();
             };
 
             submitForm.addEventListener("click", newReview);

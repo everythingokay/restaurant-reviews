@@ -451,12 +451,6 @@
       "restaurantId": 15,
       "stars": 2,
       "text": "Worth the wait but the service is extremely slow and the food takes FOREVERRR."
-    },
-    {
-      "restaurantId": 11,
-      "stars": 5,
-      "text": "hello",
-      "id": 45
     }
   ]
 }
